@@ -9,19 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="wUH-S7-J8j">
-            <objects>
-                <navigationController id="4fm-Pd-YIC" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5wu-cS-JDl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="S1t-Yx-u7j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-994" y="76"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -124,13 +111,58 @@
             </objects>
             <point key="canvasLocation" x="-235" y="76"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Pfr-Db-oTq">
+            <objects>
+                <viewController id="JhG-Fe-Lqy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W6J-3t-k2U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-10-27 at 9.08.26 pm.png" translatesAutoresizingMaskIntoConstraints="NO" id="OSm-rZ-GCm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PhN-Qq-fmn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OSm-rZ-GCm" firstAttribute="leading" secondItem="PhN-Qq-fmn" secondAttribute="leading" id="3hz-pt-qj5"/>
+                            <constraint firstItem="PhN-Qq-fmn" firstAttribute="trailing" secondItem="OSm-rZ-GCm" secondAttribute="trailing" id="AuT-4Z-skI"/>
+                            <constraint firstItem="OSm-rZ-GCm" firstAttribute="top" secondItem="PhN-Qq-fmn" secondAttribute="top" id="HrY-1h-Meb"/>
+                            <constraint firstItem="PhN-Qq-fmn" firstAttribute="bottom" secondItem="OSm-rZ-GCm" secondAttribute="bottom" id="p8P-3z-V25"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7MJ-vc-EVK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="428" y="76"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="R4n-OF-jm2">
+            <objects>
+                <viewController id="S9i-hV-Qrj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u2Y-XO-VR1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Teh-Wv-gEp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A5C-7h-Txa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1072" y="76"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Screen Shot 2022-10-27 at 9.08.26 pm.png" width="263" height="393"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -13,6 +13,7 @@
 		CB14AD012907E1DA002F64BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB14ACFF2907E1DA002F64BD /* Main.storyboard */; };
 		CB14AD032907E1DC002F64BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB14AD022907E1DC002F64BD /* Assets.xcassets */; };
 		CB14AD062907E1DC002F64BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB14AD042907E1DC002F64BD /* LaunchScreen.storyboard */; };
+		CB14AD0E290A909D002F64BD /* Screen Shot 2022-10-27 at 9.08.26 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = CB14AD0D290A909C002F64BD /* Screen Shot 2022-10-27 at 9.08.26 pm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CB14AD022907E1DC002F64BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB14AD052907E1DC002F64BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB14AD072907E1DC002F64BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB14AD0D290A909C002F64BD /* Screen Shot 2022-10-27 at 9.08.26 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-10-27 at 9.08.26 pm.png"; path = "../../../Desktop/Screen Shot 2022-10-27 at 9.08.26 pm.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				CB14ACFD2907E1DA002F64BD /* ViewController.swift */,
 				CB14ACFF2907E1DA002F64BD /* Main.storyboard */,
 				CB14AD022907E1DC002F64BD /* Assets.xcassets */,
+				CB14AD0D290A909C002F64BD /* Screen Shot 2022-10-27 at 9.08.26 pm.png */,
 				CB14AD042907E1DC002F64BD /* LaunchScreen.storyboard */,
 				CB14AD072907E1DC002F64BD /* Info.plist */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				CB14AD062907E1DC002F64BD /* LaunchScreen.storyboard in Resources */,
 				CB14AD032907E1DC002F64BD /* Assets.xcassets in Resources */,
+				CB14AD0E290A909D002F64BD /* Screen Shot 2022-10-27 at 9.08.26 pm.png in Resources */,
 				CB14AD012907E1DA002F64BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
