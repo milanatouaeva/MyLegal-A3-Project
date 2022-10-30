@@ -61,7 +61,7 @@
                                     <constraint firstAttribute="height" constant="40" id="e3w-8b-J6R"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0s2-hI-Kqu">
                                 <rect key="frame" x="60" y="364" width="294" height="40"/>
@@ -257,7 +257,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Fpd-lB-6Rr"/>
-        <segue reference="Ozp-K6-0cp"/>
+        <segue reference="aRY-Xe-xD7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-10-27 at 10.03.18 pm.png" width="287" height="425"/>
