@@ -19,6 +19,7 @@
 		CB14AD14290A9D48002F64BD /* Screen Shot 2022-10-27 at 10.03.18 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = CB14AD13290A9D48002F64BD /* Screen Shot 2022-10-27 at 10.03.18 pm.png */; };
 		CB14AD16290A9D53002F64BD /* Screen Shot 2022-10-27 at 10.04.08 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = CB14AD15290A9D53002F64BD /* Screen Shot 2022-10-27 at 10.04.08 pm.png */; };
 		CB14AD18290AA2ED002F64BD /* Screen Shot 2022-10-27 at 10.27.19 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = CB14AD17290AA2EC002F64BD /* Screen Shot 2022-10-27 at 10.27.19 pm.png */; };
+		CBC9E545290E4EFA009CA0FC /* Screen Shot 2022-10-30 at 4.24.20 pm.png in Resources */ = {isa = PBXBuildFile; fileRef = CBC9E544290E4EFA009CA0FC /* Screen Shot 2022-10-30 at 4.24.20 pm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CB14AD13290A9D48002F64BD /* Screen Shot 2022-10-27 at 10.03.18 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-10-27 at 10.03.18 pm.png"; path = "../../../Desktop/Screen Shot 2022-10-27 at 10.03.18 pm.png"; sourceTree = "<group>"; };
 		CB14AD15290A9D53002F64BD /* Screen Shot 2022-10-27 at 10.04.08 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-10-27 at 10.04.08 pm.png"; path = "../../../Desktop/Screen Shot 2022-10-27 at 10.04.08 pm.png"; sourceTree = "<group>"; };
 		CB14AD17290AA2EC002F64BD /* Screen Shot 2022-10-27 at 10.27.19 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-10-27 at 10.27.19 pm.png"; path = "../../../Desktop/Screen Shot 2022-10-27 at 10.27.19 pm.png"; sourceTree = "<group>"; };
+		CBC9E544290E4EFA009CA0FC /* Screen Shot 2022-10-30 at 4.24.20 pm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-10-30 at 4.24.20 pm.png"; path = "../../../Desktop/Screen Shot 2022-10-30 at 4.24.20 pm.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				CB14ACFD2907E1DA002F64BD /* ViewController.swift */,
 				CB14ACFF2907E1DA002F64BD /* Main.storyboard */,
 				CB14AD022907E1DC002F64BD /* Assets.xcassets */,
+				CBC9E544290E4EFA009CA0FC /* Screen Shot 2022-10-30 at 4.24.20 pm.png */,
 				CB14AD17290AA2EC002F64BD /* Screen Shot 2022-10-27 at 10.27.19 pm.png */,
 				CB14AD15290A9D53002F64BD /* Screen Shot 2022-10-27 at 10.04.08 pm.png */,
 				CB14AD13290A9D48002F64BD /* Screen Shot 2022-10-27 at 10.03.18 pm.png */,
@@ -152,6 +155,7 @@
 				CB14AD012907E1DA002F64BD /* Main.storyboard in Resources */,
 				CB14AD10290A9224002F64BD /* Screen Shot 2022-10-27 at 9.15.30 pm.png in Resources */,
 				CB14AD16290A9D53002F64BD /* Screen Shot 2022-10-27 at 10.04.08 pm.png in Resources */,
+				CBC9E545290E4EFA009CA0FC /* Screen Shot 2022-10-30 at 4.24.20 pm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

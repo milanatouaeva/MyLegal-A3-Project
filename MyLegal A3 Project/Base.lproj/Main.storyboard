@@ -238,6 +238,16 @@
                                     <segue destination="qhh-UB-IPa" kind="show" id="uZr-Ic-pu8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylv-Wj-Nkn">
+                                <rect key="frame" x="327" y="102" width="52" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="UTS"/>
+                                <connections>
+                                    <segue destination="XRk-w0-FbM" kind="show" id="hkD-zO-egj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OET-as-TYj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -254,18 +264,60 @@
             </objects>
             <point key="canvasLocation" x="1057" y="81"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="u49-4P-TQt">
+            <objects>
+                <viewController id="XRk-w0-FbM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YVj-KN-FMR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-10-30 at 4.24.20 pm.png" translatesAutoresizingMaskIntoConstraints="NO" id="lRf-zE-v5l">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNw-EG-8Ol">
+                                <rect key="frame" x="53" y="104" width="52" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="UTS"/>
+                                <connections>
+                                    <segue destination="xbk-GS-cLD" kind="show" id="bwu-cJ-Ub0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cu7-nD-Uta"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cu7-nD-Uta" firstAttribute="bottom" secondItem="lRf-zE-v5l" secondAttribute="bottom" id="EAe-Tq-KwL"/>
+                            <constraint firstItem="lRf-zE-v5l" firstAttribute="top" secondItem="cu7-nD-Uta" secondAttribute="top" id="RPQ-ST-O4A"/>
+                            <constraint firstItem="cu7-nD-Uta" firstAttribute="trailing" secondItem="lRf-zE-v5l" secondAttribute="trailing" id="eN8-bo-AXh"/>
+                            <constraint firstItem="lRf-zE-v5l" firstAttribute="leading" secondItem="cu7-nD-Uta" secondAttribute="leading" id="j2Q-fV-UVI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Npn-kC-jwL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fhf-GT-UqW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1745" y="104"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Fpd-lB-6Rr"/>
+        <segue reference="bwu-cJ-Ub0"/>
+        <segue reference="uZr-Ic-pu8"/>
         <segue reference="aRY-Xe-xD7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2022-10-27 at 10.03.18 pm.png" width="287" height="425"/>
         <image name="Screen Shot 2022-10-27 at 10.04.08 pm.png" width="282" height="383"/>
         <image name="Screen Shot 2022-10-27 at 10.27.19 pm.png" width="302" height="494"/>
+        <image name="Screen Shot 2022-10-30 at 4.24.20 pm.png" width="267" height="155"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
