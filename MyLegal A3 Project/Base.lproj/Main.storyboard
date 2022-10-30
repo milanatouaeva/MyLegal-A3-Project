@@ -238,14 +238,13 @@
                                     <segue destination="qhh-UB-IPa" kind="show" id="uZr-Ic-pu8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2k2-iR-u6L">
-                                <rect key="frame" x="323" y="104" width="52" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UG8-zN-ijZ">
+                                <rect key="frame" x="338" y="96" width="56" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="UTS"/>
+                                <buttonConfiguration key="configuration" style="plain" title="UTS "/>
                                 <connections>
-                                    <segue destination="Hgt-tj-HqB" kind="show" id="eqF-un-3uF"/>
+                                    <segue destination="cJh-w0-VKw" kind="show" id="wxW-gK-TJg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -265,45 +264,44 @@
             <point key="canvasLocation" x="1057" y="81"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Y5p-O1-VDR">
+        <scene sceneID="YdU-7f-xrc">
             <objects>
-                <viewController id="Hgt-tj-HqB" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hNL-4E-R8K">
+                <viewController id="cJh-w0-VKw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s00-bY-8fC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-10-30 at 4.24.20 pm.png" translatesAutoresizingMaskIntoConstraints="NO" id="FZP-db-Rc1">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2022-10-30 at 6.53.18 pm.png" translatesAutoresizingMaskIntoConstraints="NO" id="GMP-0w-vzH">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aQ-KV-Jow">
-                                <rect key="frame" x="66" y="102" width="52" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfY-QD-2Ou">
+                                <rect key="frame" x="55" y="83" width="56" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="UTS"/>
+                                <buttonConfiguration key="configuration" style="plain" title="UTS "/>
                                 <connections>
-                                    <segue destination="xbk-GS-cLD" kind="show" id="PX5-Zq-rVh"/>
+                                    <segue destination="xbk-GS-cLD" kind="show" id="DI3-14-Iec"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="VBC-vN-Ynh"/>
+                        <viewLayoutGuide key="safeArea" id="Ajh-XB-7QB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="FZP-db-Rc1" firstAttribute="top" secondItem="VBC-vN-Ynh" secondAttribute="top" id="OqP-il-HBT"/>
-                            <constraint firstItem="FZP-db-Rc1" firstAttribute="leading" secondItem="VBC-vN-Ynh" secondAttribute="leading" id="aM1-YL-ItC"/>
-                            <constraint firstItem="VBC-vN-Ynh" firstAttribute="trailing" secondItem="FZP-db-Rc1" secondAttribute="trailing" id="ezJ-W2-Wax"/>
-                            <constraint firstItem="VBC-vN-Ynh" firstAttribute="bottom" secondItem="FZP-db-Rc1" secondAttribute="bottom" id="fxf-Sk-Gnr"/>
+                            <constraint firstItem="GMP-0w-vzH" firstAttribute="top" secondItem="Ajh-XB-7QB" secondAttribute="top" id="32K-Ba-co8"/>
+                            <constraint firstItem="Ajh-XB-7QB" firstAttribute="bottom" secondItem="GMP-0w-vzH" secondAttribute="bottom" id="4x6-w6-1bq"/>
+                            <constraint firstItem="Ajh-XB-7QB" firstAttribute="trailing" secondItem="GMP-0w-vzH" secondAttribute="trailing" id="KtA-Ok-tOm"/>
+                            <constraint firstItem="GMP-0w-vzH" firstAttribute="leading" secondItem="Ajh-XB-7QB" secondAttribute="leading" id="suT-uN-coo"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="iG5-aI-N1E"/>
+                    <navigationItem key="navigationItem" id="kqU-Fq-WWy"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nvx-Gu-kl5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W0s-Am-RxE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1728" y="97"/>
+            <point key="canvasLocation" x="1814" y="114"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="PX5-Zq-rVh"/>
+        <segue reference="DI3-14-Iec"/>
         <segue reference="uZr-Ic-pu8"/>
         <segue reference="aRY-Xe-xD7"/>
     </inferredMetricsTieBreakers>
@@ -311,13 +309,10 @@
         <image name="Screen Shot 2022-10-27 at 10.03.18 pm.png" width="287" height="425"/>
         <image name="Screen Shot 2022-10-27 at 10.04.08 pm.png" width="282" height="383"/>
         <image name="Screen Shot 2022-10-27 at 10.27.19 pm.png" width="302" height="494"/>
-        <image name="Screen Shot 2022-10-30 at 4.24.20 pm.png" width="267" height="155"/>
+        <image name="Screen Shot 2022-10-30 at 6.53.18 pm.png" width="301" height="149"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
